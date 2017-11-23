@@ -10,6 +10,6 @@ case erlang:function_exported(rebar3, main, 1) of
         %% profiles
         [{deps, [
             {erlware_commons, "", {git, "git://github.com/erlware/erlware_commons", {tag, "0916834752"}}}, %% this is the version of erlware_commons that works until erlware tags a new version
-            {qdate_localtime, "", {git, "git://github.com/lattenwald/qdate_localtime", "5c39ff06f94ca050bc985a7a5d39516560484386"}}
+            {qdate_localtime, "", {git, "git://github.com/lattenwald/qdate_localtime", "36ab2de3f744c1f16dfbc2750ed487660bde9306"}}
         ]} | lists:keydelete(deps, 1, CONFIG)]
 end.
